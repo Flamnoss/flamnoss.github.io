@@ -10,12 +10,11 @@ footer = false
 # If you don't want to display id/bio/avatar, simply comment out that line
 name = "Isaak Brazle"
 id = "flamnoss"
-bio = "masturbate"
-avatar = "img/avatar.webp"
+bio = "Hello! Im a 17 year old who loves photography, 3d modeling and basketball."
+avatar = "img/Spiderman.jpg"
 links = [
-    { name = "GitHub", icon = "github", url = "https://github.com/<your-username>" },
-    { name = "Twitter", icon = "twitter", url = "https://twitter.com/<your-username>" },
-    { name = "Email", icon = "email", url = "mailto:<your-email-address>" },
+    { name = "GitHub", icon = "github", url = "https://github.com/Flamnoss" },
+    { name = "Email", icon = "email", url = "mailto:isaakbrazle@gmailcom" }
 ]
 
 # Show a few recent posts in home page
