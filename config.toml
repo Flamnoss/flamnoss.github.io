@@ -5,7 +5,7 @@
 #
 #=========================================================================================
 
-base_url = "https://flamnos.github.io"
+base_url = "https://flamnoss.github.io"
 title = "@Isaak"
 description = "awesome sauce"
 default_language = "en"
