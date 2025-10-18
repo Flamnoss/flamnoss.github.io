@@ -15,19 +15,23 @@ header > a{
   color: #786254;
 }
 
-a{
+h1{
+  margin: 2% 0 5% 0;
+}
+
+main a{
   color: white;
+  padding: 0 0 3% 1%;
   text-decoration: none;
+}
+
+main div{
+    border-bottom: solid 2px #D94F30;
+    margin: 5% 0;
 }
 
 a:hover{
   color:  #D94F30;
 }
 
-a > img { /* Links */
-  width: 20px;
-  height: 20px;
-  margin: 0 3px;
-  filter: brightness(0) invert(1); /* makes icon white if it's black */
-}
 
