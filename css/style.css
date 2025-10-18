@@ -5,11 +5,11 @@
 html{
     background-color: #1b0000;
     color: #F2E3D5;
-    margin: 0 30%;
+    margin: 0 25%;
 }
 
 body{
-    margin: 40% 0;
+    margin: 30% 0;
 
 }
 header > div{
@@ -21,9 +21,9 @@ header > div{
 
 header > div > img{ /* profile-pic */
   width: 90px;
+  margin: 0 15px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 15px;
 }
 
 header > div > div{ /* profile-info */
@@ -38,8 +38,17 @@ header > div > div > div{ /* profile header */
 }
 
 a{
+  color: white;
   text-decoration: none;
   align-content: right;
+}
+
+a:hover{
+  color:  #D94F30;
+}
+
+header > a{
+  margin-left: 5%;
 }
 
 a > img { /* Links */
@@ -53,13 +62,13 @@ header > div > div p {
   margin-top: 5px;
   color: #fbe7b2;
 }
-.insta-link img {
+header > div a img { /* link image color reset to white */
   width: 20px;
   height: 20px;
   filter: brightness(0) invert(1); /* default white */
 }
 
-.insta-link:hover img {
+header > div a:hover img { /* link image coloring */
   filter: invert(43%) sepia(85%) saturate(574%) hue-rotate(315deg) brightness(101%) contrast(97%);
   /* pinkish Instagram color on hover */
 }
