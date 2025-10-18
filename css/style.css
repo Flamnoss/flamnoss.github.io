@@ -2,3 +2,64 @@
     margin: 0;
     padding: 0;
 }
+html{
+    background-color: #1b0000;
+    color: #F2E3D5;
+    margin: 0 30%;
+}
+
+body{
+    margin: 40% 0;
+
+}
+header > div{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-family: Georgia, serif;
+}
+
+header > div > img{ /* profile-pic */
+  width: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 15px;
+}
+
+header > div > div{ /* profile-info */
+  display: flex;
+  flex-direction: column;
+}
+
+header > div > div > div{ /* profile header */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  align-content: right;
+}
+
+a > img { /* Links */
+  width: 20px;
+  height: 20px;
+  margin: 0 3px;
+  filter: brightness(0) invert(1); /* makes icon white if it's black */
+}
+
+header > div > div p {
+  margin-top: 5px;
+  color: #fbe7b2;
+}
+.insta-link img {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1); /* default white */
+}
+
+.insta-link:hover img {
+  filter: invert(43%) sepia(85%) saturate(574%) hue-rotate(315deg) brightness(101%) contrast(97%);
+  /* pinkish Instagram color on hover */
+}
