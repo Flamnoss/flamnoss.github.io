@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: #1b0000;
+    color: #F2E3D5;
+    margin: 0 25%;
+}
+
+body{
+    margin: 14% 0;
+}
+header > a{
+  color: #786254;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color:  #D94F30;
+}
+
+a > img { /* Links */
+  width: 20px;
+  height: 20px;
+  margin: 0 3px;
+  filter: brightness(0) invert(1); /* makes icon white if it's black */
+}
+

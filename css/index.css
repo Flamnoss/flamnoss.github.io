@@ -40,15 +40,16 @@ header > div > div > div{ /* profile header */
 a{
   color: white;
   text-decoration: none;
-  align-content: right;
 }
 
 a:hover{
   color:  #D94F30;
 }
 
-header > a{
+header > a{ /* posts */
   margin-left: 5%;
+  padding-bottom: 1px;
+  border-bottom: solid 2px #D94F30;
 }
 
 a > img { /* Links */
