@@ -47,6 +47,7 @@ a:hover{
 }
 
 header > a{ /* posts */
+  font-size: 125%;
   margin-left: 5%;
   padding-bottom: 1px;
   border-bottom: solid 2px #D94F30;

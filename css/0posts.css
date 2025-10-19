@@ -1,18 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-html{
-    background-color: #1b0000;
-    color: #F2E3D5;
-    margin: 0 25%;
-}
-
 body{
     margin: 14% 0;
 }
 header > a{
   color: #786254;
+  padding-left: 1%;
 }
 
 h1{
@@ -20,6 +11,7 @@ h1{
 }
 
 main a{
+  font-size: 125%;
   color: white;
   padding: 0 0 3% 1%;
   text-decoration: none;
@@ -29,9 +21,4 @@ main div{
     border-bottom: solid 2px #D94F30;
     margin: 5% 0;
 }
-
-a:hover{
-  color:  #D94F30;
-}
-
 

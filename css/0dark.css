@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: #1b0000;
+    color: #F2E3D5;
+    margin: 0 25%;
+}
+
+body{
+  margin: 0 25%;
+}
+
+a:hover{
+  color: #D94F30;
+}
