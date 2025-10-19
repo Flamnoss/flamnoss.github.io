@@ -15,3 +15,16 @@ body{
 a:hover{
   color: #D94F30;
 }
+
+@media (max-width: 900px) {
+  body, html{
+    margin: 0 10%;
+  }
+
+}
+@media (max-width: 600px) {
+  body, html{
+    margin: 0 15%;
+  }
+
+}
